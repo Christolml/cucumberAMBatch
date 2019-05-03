@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify login",
+        "description": "",
+        "id": "tags-in-cucumber;verify-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 380567000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "This is valid login test",
+            "match": {
+              "location": "TaggingStepDefinitions.this_is_valid_login_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Verify logout",
+        "description": "",
+        "id": "tags-in-cucumber;verify-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "this is logout test",
+            "match": {
+              "location": "TaggingStepDefinitions.this_is_logout_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@SanityTest"
+          },
+          {
+            "line": 7,
+            "name": "@End2End"
+          }
+        ]
+      }
+    ],
+    "name": "Tags in cucumber",
+    "description": "",
+    "id": "tags-in-cucumber",
+    "keyword": "Feature",
+    "uri": "login/Tagging.feature"
+  }
+]
